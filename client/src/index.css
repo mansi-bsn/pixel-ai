@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+:root{
+  --color-primary: #0ea5a4; --color-accent: #ff7a59; --color-accent-2: #0b74ff; --color-text: #0f172a; --color-muted: #64748b; --color-surface: #ffffff; --color-bg: #f4f7fb; --radius-lg: 0.75rem; } .bg-primary{background-color:var(--color-primary)!important} .text-primary{color:var(--color-primary)!important} .text-muted{color:var(--color-muted)!important} .bg-surface{background-color:var(--color-surface)!important} .bg-app{background-color:var(--color-bg)!important} .bg-gradient-primary{background-image:linear-gradient(90deg,var(--color-primary),var(--color-accent))} .bg-gradient-accent{background-image:linear-gradient(90deg,var(--color-accent),var(--color-accent-2))} .btn-primary{background-image:linear-gradient(90deg,var(--color-primary),var(--color-accent));color:white;border:none} .btn-primary:disabled{opacity:.6;cursor:not-allowed} .border-muted{border-color:var(--color-muted)!important} .rounded-lg{border-radius:var(--radius-lg)!important
+}
+
+/* @theme {
+  --color-primary: #5044e5;
+} */
+
+/* body{
+  background-color: black;
+} */
+
+.reset-tw .reset-tw *{
+  all: revert !important;
+}
+
+.cl-drawerRoot {
+  z-index: 10;
+}
